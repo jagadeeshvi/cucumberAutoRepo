@@ -1,0 +1,282 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Check first name and last name",
+        "description": "",
+        "id": "validate-first-and-last-name;check-first-name-and-last-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38127251902,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on demo site page",
+            "match": {
+              "location": "DemoStepDef.user_need_to_be_on_demo_site_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1241118223,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters first name",
+            "match": {
+              "location": "DemoStepDef.user_enters_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1134732719,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters last name",
+            "match": {
+              "location": "DemoStepDef.user_enters_last_name()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Validate first and last name",
+    "description": "As a user u need to validate first and last name",
+    "id": "validate-first-and-last-name",
+    "keyword": "Feature",
+    "uri": "DemoFF.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "validate search field",
+        "description": "",
+        "id": "validate-search-of-google;validate-search-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23030073528,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on google page",
+            "match": {
+              "location": "GoogleStepDef.user_need_to_be_on_google_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1109657078,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters search string",
+            "match": {
+              "location": "GoogleStepDef.user_enters_search_string()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Validate search of google",
+    "description": "As a user u need to validate search of google",
+    "id": "validate-search-of-google",
+    "keyword": "Feature",
+    "uri": "GoogleFF.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "validate First Name field",
+        "description": "",
+        "id": "create-account-of-facebook;validate-first-name-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 47905003222,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "MultiStepDef.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1164913808,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters user \"Jagadeesh\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jagadeesh",
+                  "offset": 18
+                }
+              ],
+              "location": "MultiStepDef.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1049381114,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User checks user \"Jagadeesh\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jagadeesh",
+                  "offset": 18
+                }
+              ],
+              "location": "MultiStepDef.User_checks_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 687852190,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "close browser",
+            "match": {
+              "location": "MultiStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Validate create user multiple fields",
+        "description": "",
+        "id": "create-account-of-facebook;validate-create-user-multiple-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51174513820,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User need to be on Facebook login page",
+            "match": {
+              "location": "MultiStepDef.user_need_to_be_on_Facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1189738611,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters user \"Jagadeesh\" first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jagadeesh",
+                  "offset": 18
+                }
+              ],
+              "location": "MultiStepDef.user_enters_user_first_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1147777965,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters user \"Vidadhala\" surname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vidadhala",
+                  "offset": 18
+                }
+              ],
+              "location": "MultiStepDef.user_enters_user_surname(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1041484422,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User checks user \"Jagadeesh\" first name is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jagadeesh",
+                  "offset": 18
+                }
+              ],
+              "location": "MultiStepDef.User_checks_user_first_name_is_present(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1025792440,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User mobile field should be blank",
+            "match": {
+              "location": "MultiStepDef.user_mobile_field_should_be_blank()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 679525255,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "close browser",
+            "match": {
+              "location": "MultiStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "create account of Facebook",
+    "description": "As a user u need to open facebook home page and do teh validations",
+    "id": "create-account-of-facebook",
+    "keyword": "Feature",
+    "uri": "MultiFF.feature"
+  }
+]
